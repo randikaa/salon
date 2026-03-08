@@ -58,7 +58,7 @@ export default function AdminLayout({ children }: { children: React.ReactNode })
         )}
       >
         <div className="flex h-16 items-center flex-shrink-0 px-6 border-b border-stone-100 justify-between lg:justify-center">
-          <Link href="/" className="flex items-center gap-2 font-bold text-xl text-neutral-900">
+          <Link href="/" onClick={() => setSidebarOpen(false)} className="flex items-center gap-2 font-bold text-xl text-neutral-900">
             <Scissors className="w-6 h-6" />
             <span>Luxe Admin</span>
           </Link>
@@ -75,6 +75,7 @@ export default function AdminLayout({ children }: { children: React.ReactNode })
                 <Link
                   key={item.name}
                   href={item.href}
+                  onClick={() => setSidebarOpen(false)}
                   className={cn(
                     "group flex items-center px-3 py-2.5 text-sm font-medium rounded-xl transition-colors",
                     isActive
