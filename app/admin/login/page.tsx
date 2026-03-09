@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import { useRouter } from "next/navigation";
+import Image from "next/image";
 import { motion } from "framer-motion";
 import { Scissors, Lock, Loader2 } from "lucide-react";
 
@@ -101,7 +102,7 @@ export default function AdminLogin() {
         </form>
 
         <div className="mt-8 pt-6 border-t border-stone-100 flex items-center justify-center gap-2 text-neutral-400 text-sm">
-          <Scissors className="w-4 h-4" />
+          <Image src="/logo.png" alt="Logo" width={16} height={16} className="w-4 h-4 rounded-full opacity-50 grayscale" />
           <span>Salon Seven Zee Internal Setup</span>
         </div>
       </motion.div>

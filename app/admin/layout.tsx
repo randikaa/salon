@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import Link from "next/link";
+import Image from "next/image";
 import { usePathname, useRouter } from "next/navigation";
 import { 
   Scissors, 
@@ -59,7 +60,7 @@ export default function AdminLayout({ children }: { children: React.ReactNode })
       >
         <div className="flex h-16 items-center flex-shrink-0 px-6 border-b border-stone-100 justify-between lg:justify-center">
           <Link href="/" onClick={() => setSidebarOpen(false)} className="flex items-center gap-2 font-bold text-xl text-neutral-900">
-            <Scissors className="w-6 h-6" />
+            <Image src="/logo.png" alt="Admin Logo" width={24} height={24} className="w-6 h-6 rounded-full" />
             <span>Salon Seven Zee Admin</span>
           </Link>
           <button className="lg:hidden" onClick={() => setSidebarOpen(false)}>
@@ -119,7 +120,7 @@ export default function AdminLayout({ children }: { children: React.ReactNode })
               <Menu className="h-6 w-6" />
             </button>
             <div className="ml-4 flex items-center gap-2 font-bold text-lg text-neutral-900">
-              <Scissors className="w-5 h-5" />
+              <Image src="/logo.png" alt="Admin Logo" width={20} height={20} className="w-5 h-5 rounded-full" />
               <span>Salon Seven Zee Admin</span>
             </div>
           </div>

@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import { Scissors, Instagram, Facebook, Twitter } from "lucide-react";
 
 export function Footer() {
@@ -8,7 +9,7 @@ export function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-12 md:gap-8">
           <div className="space-y-4">
             <Link href="/" className="flex items-center gap-2 text-2xl font-bold tracking-tighter text-white">
-              <Scissors className="w-6 h-6" />
+              <Image src="/logo.png" alt="Salon Seven Zee Logo" width={24} height={24} className="w-6 h-6 rounded-full" />
               <span>Salon Seven Zee</span>
             </Link>
             <p className="text-neutral-400 max-w-sm">

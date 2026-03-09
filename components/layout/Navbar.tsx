@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from "react";
 import Link from "next/link";
+import Image from "next/image";
 import { Menu, X, Scissors } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
 import { cn } from "@/lib/utils";
@@ -38,7 +39,7 @@ export function Navbar() {
             scrolled ? "text-neutral-900" : "text-white"
           )}
         >
-          <Scissors className="w-8 h-8 group-hover:rotate-180 transition-transform duration-500" />
+          <Image src="/logo.png" alt="Salon Seven Zee Logo" width={32} height={32} className="w-8 h-8 group-hover:rotate-180 transition-transform duration-500 rounded-full" />
           <span>Salon Seven Zee</span>
         </Link>
 
