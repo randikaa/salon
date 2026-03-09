@@ -60,7 +60,7 @@ export default function AdminLayout({ children }: { children: React.ReactNode })
         <div className="flex h-16 items-center flex-shrink-0 px-6 border-b border-stone-100 justify-between lg:justify-center">
           <Link href="/" onClick={() => setSidebarOpen(false)} className="flex items-center gap-2 font-bold text-xl text-neutral-900">
             <Scissors className="w-6 h-6" />
-            <span>Luxe Admin</span>
+            <span>Salon Seven Zee Admin</span>
           </Link>
           <button className="lg:hidden" onClick={() => setSidebarOpen(false)}>
             <X className="w-5 h-5 text-neutral-500" />
@@ -120,7 +120,7 @@ export default function AdminLayout({ children }: { children: React.ReactNode })
             </button>
             <div className="ml-4 flex items-center gap-2 font-bold text-lg text-neutral-900">
               <Scissors className="w-5 h-5" />
-              <span>Luxe Admin</span>
+              <span>Salon Seven Zee Admin</span>
             </div>
           </div>
         </header>

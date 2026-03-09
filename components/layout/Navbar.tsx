@@ -39,7 +39,7 @@ export function Navbar() {
           )}
         >
           <Scissors className="w-8 h-8 group-hover:rotate-180 transition-transform duration-500" />
-          <span>Luxe Salon</span>
+          <span>Salon Seven Zee</span>
         </Link>
 
         {/* Desktop Nav */}

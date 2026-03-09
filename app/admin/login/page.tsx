@@ -102,7 +102,7 @@ export default function AdminLogin() {
 
         <div className="mt-8 pt-6 border-t border-stone-100 flex items-center justify-center gap-2 text-neutral-400 text-sm">
           <Scissors className="w-4 h-4" />
-          <span>Luxe Salon Internal Setup</span>
+          <span>Salon Seven Zee Internal Setup</span>
         </div>
       </motion.div>
     </div>

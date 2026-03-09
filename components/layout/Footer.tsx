@@ -9,7 +9,7 @@ export function Footer() {
           <div className="space-y-4">
             <Link href="/" className="flex items-center gap-2 text-2xl font-bold tracking-tighter text-white">
               <Scissors className="w-6 h-6" />
-              <span>Luxe Salon</span>
+              <span>Salon Seven Zee</span>
             </Link>
             <p className="text-neutral-400 max-w-sm">
               Elevating your style with premium hair and beauty services in a luxurious, relaxing environment.
@@ -51,7 +51,7 @@ export function Footer() {
             <h4 className="text-lg font-semibold text-white mb-6">Contact Info</h4>
             <ul className="space-y-4">
               <li>123 Beauty Lane,<br/>Style City, SC 12345</li>
-              <li>contact@luxesalon.com</li>
+              <li>contact@salonsevenzee.com</li>
               <li>+1 (555) 123-4567</li>
             </ul>
           </div>
@@ -59,7 +59,7 @@ export function Footer() {
 
         <div className="border-t border-neutral-800 mt-16 pt-8 flex flex-col md:flex-row items-center justify-between gap-4">
           <p className="text-sm text-neutral-500">
-            © {new Date().getFullYear()} Luxe Salon. All rights reserved.
+            © {new Date().getFullYear()} Salon Seven Zee. All rights reserved.
           </p>
           <div className="flex gap-4 text-sm text-neutral-500">
             <Link href="#" className="hover:text-white transition-colors">Privacy Policy</Link>

@@ -52,7 +52,7 @@ export default function SettingsPage() {
                 <div className="grid gap-6 sm:grid-cols-2">
                   <div className="space-y-2">
                     <label className="text-sm font-medium text-neutral-900">Salon Name</label>
-                    <input type="text" defaultValue="Luxe Salon" className="w-full px-4 py-2 border border-stone-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-neutral-900 text-sm" />
+                    <input type="text" defaultValue="Salon Seven Zee" className="w-full px-4 py-2 border border-stone-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-neutral-900 text-sm" />
                   </div>
                   <div className="space-y-2">
                     <label className="text-sm font-medium text-neutral-900">Phone Number</label>
@@ -60,7 +60,7 @@ export default function SettingsPage() {
                   </div>
                   <div className="space-y-2 sm:col-span-2">
                     <label className="text-sm font-medium text-neutral-900">Contact Email</label>
-                    <input type="email" defaultValue="contact@luxesalon.com" className="w-full px-4 py-2 border border-stone-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-neutral-900 text-sm" />
+                    <input type="email" defaultValue="contact@salonsevenzee.com" className="w-full px-4 py-2 border border-stone-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-neutral-900 text-sm" />
                   </div>
                   <div className="space-y-2 sm:col-span-2">
                     <label className="text-sm font-medium text-neutral-900">Address</label>

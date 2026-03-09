@@ -56,7 +56,7 @@ export function About() {
             
             <div className="space-y-6 text-lg text-neutral-600 leading-relaxed font-light">
               <p>
-                Founded in 2014, Luxe Salon was born from a simple belief: that everyone deserves to feel extraordinary. Our space is designed to be a sanctuary away from the hustle, where you can relax, recharge, and rediscover your personal style.
+                Founded in 2014, Salon Seven Zee was born from a simple belief: that everyone deserves to feel extraordinary. Our space is designed to be a sanctuary away from the hustle, where you can relax, recharge, and rediscover your personal style.
               </p>
               <p>
                 Our team of master stylists and aestheticians are constantly refining their craft, bringing you the latest techniques and trends from around the world. We don&apos;t just follow trends—we tailor them to complement your unique features and lifestyle.
